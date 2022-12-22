@@ -1,0 +1,137 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f9f9fb;
+}
+.footer_contant {
+  display: flex;
+  line-height: 40px;
+}
+
+.footerlogo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  background: #1abe84;
+  border-radius: 50%;
+
+  margin-bottom: 25px;
+}
+.footerlogo2 {
+  height: 15px;
+  width: 15px;
+  background: #fb8f1d;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+.footertext1 {
+  width: 391px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #848484;
+}
+.footertext2 {
+  width: 391px;
+  height: 28px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+  color: #848484;
+
+  margin-top: 40px;
+}
+.Destinations {
+  width: 115px;
+  height: 60px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  color: #000000;
+  display: flex;
+}
+.column1 {
+  width: 300px;
+  height: 190px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #848484;
+}
+.shop {
+  width: 115px;
+  height: 60px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  color: #000000;
+  display: flex;
+}
+.column2 {
+  height: 190px;
+  width: 300px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #848484;
+}
+.interests {
+  height: 60px;
+  width: 79px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  color: #000000;
+}
+.column3 {
+  height: 190px;
+  width: 300px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #848484;
+}
+.line2 {
+  margin-top: 81px;
+  margin-bottom: 80px;
+
+  width: 1219px;
+  height: 0.6px;
+  background: #c4c4c4;
+}
+.footerimages {
+  display: flex;
+  column-gap: 35px;
+}
+.inimg {
+  height: 25px;
+  width: 25px;
+}
+.instimg {
+  height: 25px;
+  width: 25px;
+}
+.ytbimg {
+  height: 25px;
+  width: 25px;
+}
+.fcbimg {
+  height: 25px;
+  width: 25px;
+}
+.twtimg {
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,51 @@
+.container {
+  justify-content: space-between;
+  padding-right: 90px;
+}
+.home {
+  color: black;
+  font-weight: bold;
+}
+.destinations {
+  color: #b8becd;
+  font-weight: 400;
+  margin-left: 35px;
+}
+.about {
+  color: #b8becd;
+  font-weight: 400;
+  margin-left: 34px;
+}
+.partner {
+  color: #b8becd;
+  font-weight: 400;
+  margin-left: 34px;
+}
+.login {
+  height: 44px;
+  width: 132px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid #fb8f1d;
+  align-items: center;
+  color: #fb8f1d;
+  font-weight: 500;
+  margin-bottom: 50px;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.register {
+  height: 44px;
+  width: 132px;
+  background: #fb8f1d;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  justify-content: center;
+  color: #ffffff;
+  border: solid 1px;
+  margin-left: 20px;
+  margin-top: 5px;
+}

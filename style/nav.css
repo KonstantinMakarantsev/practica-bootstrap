@@ -1,0 +1,112 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+.navbar-expand-lg {
+    /* width: 100% !important; */
+}
+
+.logo1 {
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 9px solid #1abe84;
+}
+.logo2 {
+    background: #fb8f1d;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+.hesder_line {
+    height: 2px;
+    width: 32px;
+    background: #202336;
+    border-radius: 4px;
+    margin: 20px 0 52px 0;
+}
+.navmenu {
+    display: flex;
+}
+
+.header_text {
+    color: #b8becd;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.header_text_active {
+    color: black;
+}
+
+.load {
+    width: 20px;
+    transform: translateX(-70px);
+}
+.login {
+    height: 44px;
+    width: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid #fb8f1d;
+    color: #fb8f1d;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.register {
+    height: 44px;
+    width: 132px;
+    background: #fb8f1d;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+    color: #ffffff;
+    border: solid 1px;
+    margin-left: 20px;
+}
+
+.text1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+    margin-bottom: 80px;
+}
+
+.Explore {
+    display: flex;
+    width: 180px;
+    height: 52px;
+    background: #fb8f1d;
+    border-radius: 8px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.load_sctran {
+    transform: translate(-140px, -160px);
+}

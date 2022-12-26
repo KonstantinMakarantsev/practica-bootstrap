@@ -1,0 +1,32 @@
+.footer_block {
+    background: #f9f9fb;
+    max-width: 1640px;
+    margin: auto;
+    padding: 45px 190px;
+}
+
+.footer_text {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #848484;
+    list-style-type: none;
+}
+
+.footer_title {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.line2 {
+    max-width: 1219px;
+    height: 1px;
+    margin: 85px 0 50px 0;
+    background: #c4c4c4;
+}

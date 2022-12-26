@@ -1,0 +1,11 @@
+.container_login {
+    padding: 100px;
+}
+
+.block_login {
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #00000030;
+}

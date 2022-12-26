@@ -13,11 +13,14 @@
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="./style/adaptation.css">
+    <link rel="stylesheet" href="./style/login.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
     <script src="./bootstrap-5.3.0-alpha1/dist/js/bootstrap.js" defer></script>
+
+
 </head>
 <body>
 
@@ -67,69 +70,29 @@
 
 
                 <div>
-                    <a href="./login.html">
-                        <button class="login">Login</button>
-                    </a>
+                    <button class="login">Login</button>
                 </div>
                 <div>
                     <button class="register">Register</button>
                 </div>
             </div>
         </header>
+        <!-- =============================== -->
 
-        <div class="containerOne d-flex justify-content-between">
-            <div class="block_left d-flex  justify-content-around">
-                <div class="load d-flex align-items-center d-none d-lg-flex">
-                    <img src="./images/load.png" alt="">
+        <div class="container_login">
+            <div class="block_login">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Адрес электронной почты</label>
                 </div>
-
-                <div>
-                    <div class="containerOne_blovk_left">
-                        <div class="text1">
-                            Explore and<br />
-                            Travel
-                        </div>
-                        <div class="text2">Holiday finder</div>
-                        <div class="hesder_line"></div>
-                    </div>
-                    <div class="block_right">
-
-                        <div class="block_wrap_1 d-flex">
-                            <div class="form-floating mb-4 me-4">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="Location">
-                                <label for="floatingInput">Location</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="Grade">
-                                <label for="floatingInput">Grade</label>
-                            </div>
-                        </div>
-                        <div class="block_wrap_2 d-flex">
-                            <div class="form-floating mb-4 me-4">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="Activity">
-                                <label for="floatingInput">Activity</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input type="date" class="form-control" id="floatingInput" placeholder="Date">
-                                <label for="floatingInput">Date</label>
-                            </div>
-                        </div>
-                        <div class="Explore">Explore</div>
-                    </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Пароль">
+                    <label for="floatingPassword">Пароль</label>
                 </div>
-
-            </div>
-            <div class="block_right_img">
-                <img class="block_right_img" src="./images/header.png" alt="">
             </div>
         </div>
-        <div class="load_sctran d-flex justify-content-center p-5">
-            <img src="./images/load.png" alt="">
-        </div>
 
-
-
-
+        <!-- =============================== -->
     </main>
     <footer class="footer_block">
 
